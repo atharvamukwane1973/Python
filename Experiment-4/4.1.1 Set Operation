@@ -1,0 +1,11 @@
+# Type Content here...
+A =input("Set A: ").strip()
+B =input("Set B: ").strip()
+setA =set(map(int,A.split()))
+setB =set(map(int,B.split()))
+union =setA | setB
+intersection = setA & setB
+difference = setA - setB
+print("Union:",union)
+print("Intersection:",intersection)
+print("Difference:",difference)
