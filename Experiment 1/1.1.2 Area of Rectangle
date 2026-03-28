@@ -1,0 +1,5 @@
+# Type Content here...
+l=float(input())
+b=float(input())
+area=l*b
+print(f"{area:.2f}")
