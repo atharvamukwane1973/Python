@@ -1,0 +1,12 @@
+# Type Content here...
+# Remove punctuations from a string
+
+s = input()
+
+result = ""
+
+for ch in s:
+    if ch.isalnum() or ch == " ":
+        result += ch
+
+print(result)
